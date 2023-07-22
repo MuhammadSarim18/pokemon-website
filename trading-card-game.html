@@ -1,0 +1,707 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- bootstrap -->
+    <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"> -->
+    <script src="https://kit.fontawesome.com/5024df767e.js" crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css" />
+
+
+
+
+    <link rel="stylesheet" href="style.css">
+    <title>Pokémon</title>
+</head>
+
+
+<body>
+
+
+
+    <div class="nav">
+        <nav>
+            <ul>
+                <li><img src="images/logo.png" alt="" class="logo-img"></li>
+                <li><img src="images/logo-pokemon.png" alt=""></li>
+                <li><img src="images/play.png" alt=""></li>
+                <li class="border-in"><img src="images/legends-arceus.jpg" alt=""></li>
+                <li class="border-in"><img src="images/swsh09-gus.jpg" alt=""></li>
+                <li class="border-in"><img src="images/unite.jpg" alt=""></li>
+            </ul>
+        </nav>
+    </div>
+
+    <div class="main-nav topnav" id="myTopnav">
+        <nav>
+
+            <button href="javascript:void(0);" class="icon bars-btn" onclick="myFunction()">
+                <i class="fa fa-bars"></i>
+            </button>
+
+            <ul class="nav-ul" id="nav-ul">
+                <li class="home col-lines">
+                    <a href="index.html"><img src="images/pokemon.png" alt=""><br />home</a>
+                </li>
+                <li class="pokedex col-lines">
+                    <a href="pokedex.html"><img src="images/pokeball.jpg" alt=""><br />Pokédex</a>
+                </li>
+                <li class="games col-lines">
+                    <a href="video-games-&-app.html"><img src="images/game-controller.jpg" alt=""><br />video games</a>
+                </li>
+                <li class="games-cards col-lines">
+                    <a href="trading-card-game.html"><img src="images/cards.png" alt=""><br />trading card</a>
+                </li>
+                <li class="tv col-lines">
+                    <a href="pokemonTV.html"><img src="images/tv.png" alt=""><br />Pokémon TV</a>
+                </li>
+                <li class="events col-lines">
+                    <a href="#"><img src="images/trophy.png" alt=""><br />Pokémon events</a>
+                </li>
+                <li class="news col-lines">
+                    <a href="#"><img src="images/newspaper.jpg" alt=""><br />news</a>
+                </li>
+            </ul>
+        </nav>
+    </div>
+
+    <!-- <div class="container"> -->
+    <!-- <div class="cards">
+            <div class="large-card card">
+                <img src="images/euic.jpg" alt="">
+                <div class="description">
+                    <h2>heading</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque, laudantium dicta aut nobis fuga doloribus possimus ut eos provident voluptas reiciendis hic atque ad, soluta pariatur repellat ducimus voluptate qui.</p>
+                </div>
+            </div>
+
+            <div class="small-card card">
+                <img src="images/pokemon-legends-arceus.gif" alt="">
+                <div class="description">
+                    <h2>heading</h2>
+                </div>
+            </div>
+
+            <div class="small-card card">
+                <img src="images/pokemon-legends-arceus.gif" alt="">
+                <div class="description">
+                    <h2>heading</h2>
+                </div>
+            </div>
+        </div> -->
+
+
+
+    <!-- <div class="featured">
+        <div class="products">
+            <img src="images/euic.jpg" alt="" class="large-img">
+            <div class="box-img">
+                <img src="images/pokemon-legends-arceus.gif" alt="" class="p2">
+                <img src="images/villains.jpg" alt="" class="p3">
+                <img src="images/euic-preview-pokken-tournament.jpg" alt="" class="p3">
+            </div>
+            <div class="box-imges">
+                <img src="images/euic-power-rankings.jpg" alt="" class="p2">
+                <img src="images/euic-preview.jpg" alt="" class="p3">
+            </div>
+        </div>
+    </div> -->
+
+
+    <div class="container-bg">
+
+        <div class="signup-nav">
+            <ul>
+                <li class="signup"><img src="images/signup.png" alt=""></li>
+                <li class="search-icon"><i class="fa-solid fa-magnifying-glass fa-lg"></i></li>
+            </ul>
+        </div>
+
+
+        <div class="card-container align">
+            <div class="card big yellow">
+                <img src="images/swsh09-entei-v.jpg" alt="">
+                <div class="details">
+                    <a>heading</a>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia, excepturi!</p>
+                    <!-- <button>click</button> -->
+                </div>
+            </div>
+
+            <div class="card purple">
+                <img src="images/card2.jpg" alt="">
+                <div class="details">
+                    <a>heading</a>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia, excepturi!</p>
+                    <!-- <button>click</button> -->
+                </div>
+            </div>
+        </div>
+
+        <div class="card-container">
+            <div class="card orange">
+                <img src="images/top-deck-academy.jpg" alt="">
+                <div class="details">
+                    <a>heading</a>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia, excepturi!</p>
+                    <!-- <button>click</button> -->
+                </div>
+            </div>
+
+            <div class="card blue">
+                <img src="images/code-redemption.jpg" alt="">
+                <div class="details">
+                    <a>heading</a>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia, excepturi!</p>
+                    <!-- <button>click</button> -->
+                </div>
+            </div>
+        </div>
+
+        <div class=" row card-container">
+            <div class="card dark-blue">
+                <img src="images/boltund-v-box.jpg" alt="">
+                <div class="details">
+                    <a>heading</a>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia, excepturi!</p>
+                    <!-- <button>click</button> -->
+                </div>
+            </div>
+
+            <div class="card green">
+                <img src="images/tcg-how-to-play.jpg" alt="" class="left-img">
+                <div class="details">
+                    <p>Lorem ipsum dolor sit amet </p>
+                    <!-- <button>click</button> -->
+                </div>
+            </div>
+        </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        <div class="star-card">
+            <h3 class="featured brilliant-stars"><img src="images/cards.png" alt=""
+                    style="width: 30px; margin-right: 10px;">Sword & Shield—Brilliant Stars Featured Cards</h3>
+            <div class="swiper featured-slider">
+
+                <div class="swiper-wrapper">
+
+                    <div class="swiper-slide box">
+
+                        <div class="image">
+                            <img src="images/star1.png" alt="">
+                        </div>
+                        <div class="content">
+                            <h2>pokemon name</h2>
+                            <!-- <a href="#" class="power">145</a> -->
+                            <div class="pokemon-details">
+                                <p>Lorem ipsum dolor sit amet consectetur.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="swiper-slide box">
+
+                        <div class="image">
+                            <img src="images/star2.png" alt="">
+                        </div>
+                        <div class="content">
+                            <h2>pokemon name</h2>
+                            <a href="#" class="power">145</a>
+                            <div class="pokemon-details">
+                                <p>Lorem ipsum dolor sit amet.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="swiper-slide box">
+
+                        <div class="image">
+                            <img src="images/star3.png" alt="">
+                        </div>
+                        <div class="content">
+                            <h2>pokemon name</h2>
+                            <a href="#" class="power">145</a>
+                            <div class="pokemon-details">
+                                <p>Lorem ipsum dolor sit amet.</p>
+
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <div class="swiper-slide box">
+
+                        <div class="image">
+                            <img src="images/star4.png" alt="">
+
+                        </div>
+                        <div class="content">
+                            <h2>pokemon name</h2>
+                            <a href="#" class="power">145</a>
+                            <div class="pokemon-details">
+                                <p>Lorem ipsum dolor sit amet.</p>
+
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <div class="swiper-slide box">
+
+                        <div class="image">
+                            <img src="images/star5.png" alt="">
+
+                        </div>
+                        <div class="content">
+                            <h2>pokemon name</h2>
+                            <a href="#" class="power">145</a>
+                            <div class="pokemon-details">
+                                <p>Lorem ipsum dolor sit amet.</p>
+
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <div class="swiper-slide box">
+
+                        <div class="image">
+                            <img src="images/star6.png" alt="">
+
+                        </div>
+                        <div class="content">
+                            <h2>pokemon name</h2>
+                            <a href="#" class="power">145</a>
+                            <div class="pokemon-details">
+                                <p>Lorem ipsum dolor sit amet.</p>
+
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <div class="swiper-slide box">
+
+                        <div class="image">
+                            <img src="images/star7.png" alt="">
+                        </div>
+                        <div class="content">
+                            <h2>pokemon name</h2>
+                            <a href="#" class="power">145</a>
+                            <div class="pokemon-details">
+                                <p>Lorem ipsum dolor sit amet.</p>
+
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <div class="swiper-slide box">
+
+                        <div class="image">
+                            <img src="images/star8.png" alt="">
+                        </div>
+                        <div class="content">
+                            <h2>pokemon name</h2>
+                            <a href="#" class="power">145</a>
+                            <div class="pokemon-details">
+                                <p>Lorem ipsum dolor sit amet.</p>
+
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="swiper-slide box">
+
+                        <div class="image">
+                            <img src="images/star9.png" alt="">
+                        </div>
+                        <div class="content">
+                            <h2>pokemon name</h2>
+                            <a href="#" class="power">145</a>
+                            <div class="pokemon-details">
+                                <p>Lorem ipsum dolor sit amet.</p>
+
+                            </div>
+
+                        </div>
+                    </div>
+
+
+
+                </div>
+
+                <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div>
+
+            </div>
+
+        </div>
+        <h3 class="explore TCD">go to trading card database</h3>
+
+
+
+
+        <br />
+        <br />
+        <br />
+        <br />
+        <div class="new-card-container">
+            <div class="card-container">
+                <div class="card red">
+                    <img src="images/v-heroes.jpg" alt="">
+                    <div class="details">
+                        <a>heading</a>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia, excepturi!</p>
+                        <!-- <button>click</button> -->
+                    </div>
+                </div>
+
+                <div class="card yellow no-space">
+                    <img src="images/tcg_product_gallery.jpg" alt="">
+                    <div class="details">
+                        <a>heading</a>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia, excepturi!</p>
+                        <!-- <button>click</button> -->
+                    </div>
+                </div>
+
+                <div class="leader-card">
+                    <div class="leader-board">
+                        <div class="details">
+                            <button>play Pokémon</button>
+                            <button>play Pokémon</button>
+                            <!-- <p>leader board this week</p> -->
+                        </div>
+                        <img src="images/icon.png" alt="">
+                        <p>leader board this week</p>
+                    </div>
+
+
+
+                    <form action="">
+                        <!-- <label></label> -->
+                        <select>
+                            <option>overall</option>
+                            <option>standard</option>
+                            <option>standard</option>
+                            <option>standard</option>
+                        </select>
+                        <!-- <br><br> -->
+                    </form>
+
+                    <form action="">
+                        <!-- <label></label> -->
+                        <select>
+                            <option>various points</option>
+                            <option>standard</option>
+                            <option>standard</option>
+                            <option>standard</option>
+                        </select>
+                        <br><br>
+                    </form>
+
+
+                    <table>
+                        <tr>
+                            <th>name</th>
+                            <th>score</th>
+                        </tr>
+                        <tr>
+                            <td>1. lorem</td>
+                            <td>145</td>
+                        </tr>
+                        <tr>
+                            <td>1. lorem</td>
+                            <td>145</td>
+                        </tr>
+                        <tr>
+                            <td>1. lorem</td>
+                            <td>145</td>
+                        </tr>
+                        <tr>
+                            <td>1. lorem</td>
+                            <td>145</td>
+                        </tr>
+                        <tr>
+                            <td>1. lorem</td>
+                            <td>145</td>
+                        </tr>
+                        <tr>
+                            <td>1. lorem</td>
+                            <td>145</td>
+                        </tr>
+                    </table>
+
+
+                </div>
+            </div>
+        </div>
+
+
+        <div class="new-card-container">
+            <div class="card-container">
+                <div class="card no-space">
+                    <img src="images/swsh09-trainer-gallery.jpg" alt="">
+                    <div class="details">
+                        <a>heading</a>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia, excepturi!</p>
+                        <!-- <button>click</button> -->
+                    </div>
+                </div>
+
+                <div class="card grey">
+                    <img src="images/swsh09-card-database.jpg" alt="">
+                    <div class="details">
+                        <a>heading</a>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia, excepturi!</p>
+                        <!-- <button>click</button> -->
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+
+        <div class="slider expansions">
+            <h3 class="featured brilliant-stars"><img src="images/cards.png" alt=""
+                    style="width: 30px; margin-right: 10px;">Featured Pokémon TCG Expansions</h3>
+            <div class="swiper featured-slider">
+
+                <div class="swiper-wrapper">
+
+                    <div class="swiper-slide box">
+
+                        <div class="image">
+                            <img src="images/swsh04-slider-logo.png" alt="">
+                        </div>
+                        <!-- <div class="content">
+                            <h2>pokemon name</h2>
+                            <a href="#" class="power">145</a>
+                            <div class="pokemon-details">
+                                <p>type
+                                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                    <button type="button" class="btn btn-primary">Primary</button>
+                                    <button type="button" class="btn btn-info">Info</button>
+                                </p>
+                                <p>abilities
+                                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                    Lorem, ipsum.
+                                </p>
+                            </div>
+                        </div> -->
+                    </div>
+
+                    <div class="swiper-slide box">
+
+                        <div class="image">
+                            <img src="images/swsh05-slider-logo.png" alt="">
+                        </div>
+
+                    </div>
+
+                    <div class="swiper-slide box">
+
+                        <div class="image">
+                            <img src="images/swsh06-slider-logo.png" alt="">
+                        </div>
+
+                    </div>
+
+                    <div class="swiper-slide box">
+
+                        <div class="image">
+                            <img src="images/swsh07-slider-logo.png" alt="">
+
+                        </div>
+
+                    </div>
+
+                    <div class="swiper-slide box">
+
+                        <div class="image">
+                            <img src="images/swsh08-slider-logo.png" alt="">
+
+                        </div>
+
+                    </div>
+
+                    <div class="swiper-slide box">
+
+                        <div class="image">
+                            <img src="images/swsh09-slider-logo.png" alt="">
+
+                        </div>
+
+                    </div>
+
+                    <div class="swiper-slide box">
+
+                        <div class="image">
+                            <img src="images/swsh035-slider-logo.png" alt="">
+                        </div>
+
+                    </div>
+
+                    <div class="swiper-slide box">
+
+                        <div class="image">
+                            <img src="images/swsh045-slider-logo.png" alt="">
+                        </div>
+
+                    </div>
+
+                    <div class="swiper-slide box">
+
+                        <div class="image">
+                            <img src="images/swsh03-slider-logo.png" alt="">
+                        </div>
+
+                    </div>
+
+
+
+                </div>
+
+                <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div>
+
+            </div>
+
+
+
+        </div>
+        <h3 class="explore">explore more Pokémon</h3>
+
+
+
+
+
+
+
+
+
+
+
+        <footer class="foot">
+            <ul class="words">
+                <li>
+                    <h1>The Pokémon Compnay</h1>
+                </li>
+                <li>What's New</li>
+                <li>Pokémon Press Site</li>
+                <li>Pokémon Parents Guide</li>
+                <li>
+                    Customer Service</li>
+                <li>About Our Company</li>
+                <li>Pokémon Careers</li>
+                <li>Select a
+                    Country/Region </li>
+            </ul>
+            <ul class="s-icon">
+                <img src="images/social-icons.png" alt="">
+            </ul>
+            <ul class="add">
+                <li>Terms of Use</li>
+                <li>Privacy Notice</li>
+                <li>Cookie Page</li>
+                <li>
+                    Customer Service</li>
+                <li>Legal Info</li>
+                <li>Security</li>
+                <li>©2022 Pokémon. ©1995 - 2022
+                    <br>NintendoCreatures Inc./GAME<br> FREAK inc. TM, ®Nintendo.
+                </li>
+            </ul> <!-- </div> -->
+
+</body>
+<!-- bootsrap -->
+<!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+    crossorigin="anonymous"></script> -->
+
+</div>
+
+<script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+
+<script>
+
+
+
+
+
+
+
+
+    var swiper = new Swiper(".featured-slider", {
+        spaceBetween: 10,
+        loop: true,
+        centeredSlides: true,
+        autoplay: {
+            delay: 9500,
+            disableOnInteraction: false,
+        },
+        navigation: {
+            nextEl: ".swiper-button-next",
+            prevEl: ".swiper-button-prev",
+        },
+        breakpoints: {
+            0: {
+                slidesPerView: 1,
+            },
+            450: {
+                slidesPerView: 2,
+            },
+            768: {
+                slidesPerView: 3,
+            },
+            1024: {
+                slidesPerView: 4,
+            },
+        },
+    });
+
+</script>
+<script src="script.js"></script>
+
+</html>
